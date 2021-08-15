@@ -545,5 +545,4 @@ class Client(Recall, Socket):
         self.ad_data["reward"]["event_id"] = str(uuid4())
         req = requests.post("https://ads.tapdaq.com/v4/analytics/reward", headers=self.ad_headers, json=self.ad_data)
         if req.status_code != 204: return CheckExceptions(req.text)
-        elif req.status_code != 200: return CheckExceptions(req.text)
         else: return req.status_code
