@@ -6,7 +6,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="SAmino",
-    version="1.3.6",
+    version="1.3.7",
     url="https://github.com/SirLez/SAmino",
     download_url="https://github.com/SirLez/SAmino/archive/refs/heads/main.zip",
     description="Amino Bots with python!",
